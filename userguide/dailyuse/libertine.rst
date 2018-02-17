@@ -23,7 +23,7 @@ You can add extra options such as:
 The creating process can take some time, due to the size of the container (some hundred of megabytes).
 
 .. note::
-    The ``create`` command shown above cannot be run directly in the terminal app, due apparmor restrictions. You can run it from another device using either ``adb`` or ``ssh`` connection. Alternatively, you can run it from the terminal app using a loopback ssh connection running this command: ``ssh localhost``.
+    The ``create`` command shown above cannot be run directly in the terminal app, due apparmor restrictions. You can run it from another device using either ``adb`` or ``ssh`` connection. Alternatively, you can run it from the terminal app using a loopback ssh connection configuring the ssh keys then running this command: ``ssh localhost``, or using the Iperspace app from the OpenStore to automate this process.
 
 List containers
 ^^^^^^^^^^^^^^^
